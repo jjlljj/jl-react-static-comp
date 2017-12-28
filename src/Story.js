@@ -12,10 +12,9 @@ const Story = (props) => {
           <h3>{props.storyProp.title}</h3>
           <p>{props.storyProp.desc}</p>
         </div>
-        
+
         <Author authProps={props.storyProp} />
-        {/* create an Author component and add it here */}
-        {/* it will need properties of the author image, name, and the estimated reading time of the story */}
+
       </div>
     </div>
   )
