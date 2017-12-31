@@ -14,7 +14,7 @@ My rendering:
 
 To see a live version visit:
 
-https://jjlljj.github.io/jl-react-react-static-comp/
+https://jjlljj.github.io/jl-react-static-comp/
 
 ## Built with:
 
