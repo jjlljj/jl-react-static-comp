@@ -46,7 +46,6 @@
   .story {
     flex-wrap: wrap;
     height: auto;
-    min-width: 320px;
   }
 
   .story-cover {
@@ -62,7 +61,7 @@
   }
 
   .story-info h3 {
-    
+    margin-left: 0;
   }
 
   .story-author-info {
