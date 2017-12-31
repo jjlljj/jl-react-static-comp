@@ -4,7 +4,7 @@ import './Banner.css';
 
 const Banner = () => {
   return (
-    <div className='Banner'>
+    <div className='banner'>
       <div className='banner-left'>
         <h2>Interesting ideas that set your mind in motion</h2>
         <p>Hear directly from the people who know it best. From tech to politics to creativity and more — whatever your interest, we’ve got you covered.</p>

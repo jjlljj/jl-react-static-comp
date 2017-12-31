@@ -1,7 +1,8 @@
-.Stories {
-  width: 70%;
+.stories {
   margin: auto;
   margin-bottom: 100px;
+  min-width: 320px;
+  width: 70%;
 }
 
 .stories-header {
@@ -23,8 +24,13 @@
 
 @media screen and (max-width: 900px) {
 
-  .Stories {
+  .stories {
     width: 90%;
+    margin-bottom: 50px;
+  }
+
+  .stories-header h3 {
+    font-size: 24px;
   }
    
   .stories-grid {

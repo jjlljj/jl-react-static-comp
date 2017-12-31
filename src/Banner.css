@@ -1,22 +1,23 @@
-.Banner {
+.banner {
   display: flex;
-  width: 70%;
   margin: 0 auto 80px auto;
+  min-width: 320px;
+  width: 70%;
 }
 
-.Banner h2 {
+.banner h2 {
   font-family: serif;
   font-size: 45px;
   font-weight: lighter;
-  text-align: left;
   letter-spacing: 2px;
+  text-align: left;
 }
 
-.Banner p {
-  text-align: left;
+.banner p {
   font-size: 20px;
   font-weight: lighter;
   line-height: 150%;
+  text-align: left;
 }
 
 .banner-left {
@@ -26,10 +27,44 @@
 .banner-right {
   background-image: url(http://68.media.tumblr.com/bd9c40368eed9d1d994bfc716aafec48/tumblr_inline_ocdletfMwY1sse7kl_500.png);
   background-size: cover;
+  min-height: 300px;
   width: 50%;
 }
 
 .button-holder {
   display: flex;
   justify-content: flex-start;
+}
+
+@media screen and (max-width: 900px) {
+
+  .banner {
+    flex-direction: column-reverse;
+  }
+
+  .banner h2 {
+    font-size: 36px;
+  }
+  
+  .banner-left,
+  .banner-right {
+    min-width: 320px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+
+  .banner {
+    margin-bottom: 50px;
+    margin-left: 30px;
+  }
+
+  .banner p { 
+    margin: 20px 10px;
+  }
+
+  .button-holder {
+    justify-content: center;
+  }
 }
