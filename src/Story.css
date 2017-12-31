@@ -7,7 +7,7 @@
   margin-top: 20px;
 }
 
-.Story img {
+.Story-cover {
   width: 175px;
 }
 
@@ -33,8 +33,38 @@
 @media screen and (max-width: 900px) {
 
   .Story {
-    width: 100%;
-    max-width: 100%
+    /*width: 100%;*/
+    max-width: 100%;
+    min-width:100%;
   }
    
 }
+
+@media screen and (max-width: 420px) {
+
+  .Story {
+    height: auto;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 320px;
+  }
+
+  .Story-cover {
+    margin: auto;
+    max-width: 250px;
+    width: 85%;
+    height: auto;
+  }
+
+  .story-info {
+    width: 85%;
+    height: auto;
+  }
+
+  .story-author-info {
+    margin-top: 20px;
+  }
+
+}
+
