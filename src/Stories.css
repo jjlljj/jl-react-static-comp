@@ -30,7 +30,12 @@
   }
 
   .stories-header h3 {
+    margin-left: 10px;
     font-size: 24px;
+  }
+
+  .stories-header a {
+    margin-right: 10px;
   }
    
   .stories-grid {
