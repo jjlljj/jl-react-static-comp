@@ -12,9 +12,6 @@ My rendering:
 
 ![Mobile](public/jl-react-static-comp-mobile.png "Mobile")
 
-To see a live version visit:
-
-https://jjlljj.github.io/jl-react-static-comp/
 
 ## Built with:
 
