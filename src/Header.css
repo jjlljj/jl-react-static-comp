@@ -1,16 +1,21 @@
-.Header {
-  display: flex;
-  justify-content: space-between;
+.header {
   align-items: center;
   border-bottom: 2px solid ghostwhite;
-  padding: 20px;
+  display: flex;
+  justify-content: space-between;
   margin: auto;
+  min-width: 320px;
+  padding: 20px;
+}
+
+.nav-toggle {
+  display: none;
 }
 
 a {
+  color: lightseagreen;
   text-align: center;
   text-decoration: none;
-  color: lightseagreen;
   width: 20%;
 }
 
@@ -24,3 +29,22 @@ h1 {
   font-weight: bolder;
   margin: 0;
 }
+
+
+@media screen and (max-width: 420px) {
+
+  .nav-toggle {
+    display: inline;
+  }
+
+  .header-story,
+  .header-sign-in {
+    display: none;
+  }
+
+  .header h1 {
+    margin-left: 40px;
+  }
+
+} 
+
