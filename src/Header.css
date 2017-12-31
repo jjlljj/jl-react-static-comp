@@ -35,6 +35,7 @@ h1 {
 
   .nav-toggle {
     display: inline;
+    font-size: 30px;
   }
 
   .header-story,
@@ -43,7 +44,7 @@ h1 {
   }
 
   .header h1 {
-    margin-left: 40px;
+    margin-left: 10px;
   }
 
 } 

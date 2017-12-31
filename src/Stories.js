@@ -4,7 +4,7 @@ import './Stories.css';
 
 const Stories = (props) => {
   return (
-    <div className='Stories'>
+    <div className='stories'>
       <div className='  stories-header'>
         <h3>{props.storiesTitle}</h3>
         <a href='#'>See more</a>
@@ -12,10 +12,6 @@ const Stories = (props) => {
       <div className='stories-grid'>
         {
           props.stories.map( (story, index) => {
-            /*console.log(story);*/
-            // INSTEAD OF returning the div below, return a Story component
-            // Be sure to pass down the correct props!
-            // return (<div>{story.title}</div>)
             return (<Story storyProp={story} key={index}/>)
           })
         }
